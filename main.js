@@ -3,6 +3,7 @@ const topSelector = document.getElementById("top-select");
 const bottomSelector = document.getElementById("bottom-select");
 const converted = document.querySelector("#converted");
 const input = document.querySelector("#input");
+const dropdown = document.querySelector("#dropdown");
 
 window.addEventListener("load", () => {
 	fetchCurrencyList();
